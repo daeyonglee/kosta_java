@@ -1,0 +1,10 @@
+public class CircleArea{
+	public static void main(String[] args) {
+		private final double PI = 3.14d;
+	
+		int r = 3;
+
+		System.out.println("반지름이 3인 원의 넓이는 : " + r*r*PI);
+
+	}
+}

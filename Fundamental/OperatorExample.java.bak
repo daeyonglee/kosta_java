@@ -1,0 +1,22 @@
+public class OperatorExample {
+	public static void main(String[] args) {
+		
+		int x = 30, y = 10;
+
+		System.out.println("°á°ú : " + (x + y));
+		System.out.println(x % y);
+
+		x += y;		// x = x + y;
+
+		System.out.println(x);
+
+		double weight = 70.345;
+		System.out.println((int)weight);
+
+		System.out.println(x == y);
+		System.out.println(x != y);
+
+		System.out.println(false && true);
+		System.out.println(true || false);
+	}
+}
